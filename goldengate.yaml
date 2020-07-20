@@ -6,7 +6,7 @@ info:
   description: Cloud based dynamic/static scraper
   
 servers:
-  - url: 'https://dll.linkedit.ml'
+  - url: 'https://api-goldengate.emiga.tech'
     description: GoldenGate Public Api v0.1.0
 
 paths:
