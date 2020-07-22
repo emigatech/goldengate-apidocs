@@ -6,7 +6,7 @@ info:
   description: Cloud based dynamic/static scraper
   
 servers:
-  - url: 'http://127.0.0.1:5000'
+  - url: 'https://api-goldengate.emiga.tech'
     description: GoldenGate Public Api v0.2.0
 
 paths:
