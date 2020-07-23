@@ -577,14 +577,14 @@ components:
                   type: string
                 link: 
                   type: string
-        video:
-          type: array
-          items: 
-            type: string
-        audio:
-          type: array
-          items:
-            type: string
+            video:
+              type: array
+              items: 
+                type: string
+            audio:
+              type: array
+              items:
+                type: string
         text:
           type: object
           properties:
