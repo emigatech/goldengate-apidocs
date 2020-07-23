@@ -7,7 +7,7 @@ info:
   
 servers:
   - url: 'https://api-goldengate.emiga.tech'
-    description: GoldenGate Public Api v0.2.0
+    description: GoldenGate Public Api v0.2.1
 
 paths:
   /api/auth/login:
