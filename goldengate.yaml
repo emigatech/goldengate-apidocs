@@ -1,7 +1,7 @@
 openapi: 3.0.0
 
 info:
-  version: 0.2.0
+  version: 0.2.1
   title: GoldenGate
   description: Cloud based dynamic/static scraper
   
@@ -571,12 +571,14 @@ components:
           type: object
           properties:
             img:
-              type: object
-              properties:
-                alt:
-                  type: string
-                link: 
-                  type: string
+              type: array
+              items:
+                type: object
+                properties:
+                  alt:
+                    type: string
+                  link: 
+                    type: string
             video:
               type: array
               items: 
