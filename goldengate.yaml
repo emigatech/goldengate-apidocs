@@ -561,12 +561,14 @@ components:
                     items:
                       type: string
         url: 
-          type: object
-          properties:
-            text:
-              type: string
-            link: 
-              type: string
+          type: array
+          item:
+            type: object
+            properties:
+              text:
+                type: string
+              link: 
+                type: string
         media:
           type: object
           properties:
